@@ -1,0 +1,140 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30517.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ERP.Data", "ERP.Data\ERP.Data.csproj", "{9E7442E6-BE6F-4122-9AAF-5BE7E08A34F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ERP.Entities", "ERP.Entities\ERP.Entities.csproj", "{8D94F03B-EDB4-431B-842B-887EA1B7B59C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ERP.Core", "ERP.Core\ERP.Core.csproj", "{E4E879E6-3433-4E51-B8CF-E3AD69A4F0DE}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "ERP.Web", "http://localhost:53303", "{E08D20DD-02C2-41AE-BE6A-99B8A4C3B0F2}"
+	ProjectSection(WebsiteProperties) = preProject
+		SccProjectName = "SAK"
+		SccAuxPath = "SAK"
+		SccLocalPath = "SAK"
+		SccProvider = "SAK"
+		UseIISExpress = "true"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		ProjectReferences = "{e4e879e6-3433-4e51-b8cf-e3ad69a4f0de}|ERP.Core.dll;{9e7442e6-be6f-4122-9aaf-5be7e08a34f6}|ERP.Data.dll;{8D94F03B-EDB4-431B-842B-887EA1B7B59C}|ERP.Entities.dll;{a853ae5e-1591-48a4-b028-ae6fd0ab0484}|Larissa.Data.dll;{3581677B-FC4B-473D-87F6-C8C0200AE002}|Larissa.Entities.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/ERPTest"
+		Debug.AspNetCompiler.PhysicalPath = "ERP.Web\"
+		Debug.AspNetCompiler.TargetPath = "..\..\My Web Sites\ERPTest\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/ERPTest"
+		Release.AspNetCompiler.PhysicalPath = "ERP.Web\"
+		Release.AspNetCompiler.TargetPath = "..\..\My Web Sites\ERPTest\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "ERP.Web\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+	ProjectSection(ProjectDependencies) = postProject
+		{A853AE5E-1591-48A4-B028-AE6FD0AB0484} = {A853AE5E-1591-48A4-B028-AE6FD0AB0484}
+		{3581677B-FC4B-473D-87F6-C8C0200AE002} = {3581677B-FC4B-473D-87F6-C8C0200AE002}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Larissa.Data", "Larissa.Data\Larissa.Data.csproj", "{A853AE5E-1591-48A4-B028-AE6FD0AB0484}"
+	ProjectSection(ProjectDependencies) = postProject
+		{3581677B-FC4B-473D-87F6-C8C0200AE002} = {3581677B-FC4B-473D-87F6-C8C0200AE002}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Larissa.Entities", "Larissa.Entities\Larissa.Entities.csproj", "{3581677B-FC4B-473D-87F6-C8C0200AE002}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9E7442E6-BE6F-4122-9AAF-5BE7E08A34F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E7442E6-BE6F-4122-9AAF-5BE7E08A34F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E7442E6-BE6F-4122-9AAF-5BE7E08A34F6}.Debug|x64.ActiveCfg = Debug|x64
+		{9E7442E6-BE6F-4122-9AAF-5BE7E08A34F6}.Debug|x64.Build.0 = Debug|x64
+		{9E7442E6-BE6F-4122-9AAF-5BE7E08A34F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E7442E6-BE6F-4122-9AAF-5BE7E08A34F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E7442E6-BE6F-4122-9AAF-5BE7E08A34F6}.Release|x64.ActiveCfg = Release|x64
+		{9E7442E6-BE6F-4122-9AAF-5BE7E08A34F6}.Release|x64.Build.0 = Release|x64
+		{8D94F03B-EDB4-431B-842B-887EA1B7B59C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D94F03B-EDB4-431B-842B-887EA1B7B59C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D94F03B-EDB4-431B-842B-887EA1B7B59C}.Debug|x64.ActiveCfg = Debug|x64
+		{8D94F03B-EDB4-431B-842B-887EA1B7B59C}.Debug|x64.Build.0 = Debug|x64
+		{8D94F03B-EDB4-431B-842B-887EA1B7B59C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D94F03B-EDB4-431B-842B-887EA1B7B59C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D94F03B-EDB4-431B-842B-887EA1B7B59C}.Release|x64.ActiveCfg = Release|x64
+		{8D94F03B-EDB4-431B-842B-887EA1B7B59C}.Release|x64.Build.0 = Release|x64
+		{E4E879E6-3433-4E51-B8CF-E3AD69A4F0DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4E879E6-3433-4E51-B8CF-E3AD69A4F0DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4E879E6-3433-4E51-B8CF-E3AD69A4F0DE}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{E4E879E6-3433-4E51-B8CF-E3AD69A4F0DE}.Debug|x64.ActiveCfg = Debug|x64
+		{E4E879E6-3433-4E51-B8CF-E3AD69A4F0DE}.Debug|x64.Build.0 = Debug|x64
+		{E4E879E6-3433-4E51-B8CF-E3AD69A4F0DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4E879E6-3433-4E51-B8CF-E3AD69A4F0DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4E879E6-3433-4E51-B8CF-E3AD69A4F0DE}.Release|x64.ActiveCfg = Release|x64
+		{E4E879E6-3433-4E51-B8CF-E3AD69A4F0DE}.Release|x64.Build.0 = Release|x64
+		{E08D20DD-02C2-41AE-BE6A-99B8A4C3B0F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E08D20DD-02C2-41AE-BE6A-99B8A4C3B0F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E08D20DD-02C2-41AE-BE6A-99B8A4C3B0F2}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{E08D20DD-02C2-41AE-BE6A-99B8A4C3B0F2}.Debug|x64.Build.0 = Debug|Any CPU
+		{E08D20DD-02C2-41AE-BE6A-99B8A4C3B0F2}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{E08D20DD-02C2-41AE-BE6A-99B8A4C3B0F2}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{E08D20DD-02C2-41AE-BE6A-99B8A4C3B0F2}.Release|x64.ActiveCfg = Debug|Any CPU
+		{E08D20DD-02C2-41AE-BE6A-99B8A4C3B0F2}.Release|x64.Build.0 = Debug|Any CPU
+		{A853AE5E-1591-48A4-B028-AE6FD0AB0484}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A853AE5E-1591-48A4-B028-AE6FD0AB0484}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A853AE5E-1591-48A4-B028-AE6FD0AB0484}.Debug|x64.ActiveCfg = Debug|x64
+		{A853AE5E-1591-48A4-B028-AE6FD0AB0484}.Debug|x64.Build.0 = Debug|x64
+		{A853AE5E-1591-48A4-B028-AE6FD0AB0484}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A853AE5E-1591-48A4-B028-AE6FD0AB0484}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A853AE5E-1591-48A4-B028-AE6FD0AB0484}.Release|x64.ActiveCfg = Release|x64
+		{A853AE5E-1591-48A4-B028-AE6FD0AB0484}.Release|x64.Build.0 = Release|x64
+		{3581677B-FC4B-473D-87F6-C8C0200AE002}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3581677B-FC4B-473D-87F6-C8C0200AE002}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3581677B-FC4B-473D-87F6-C8C0200AE002}.Debug|x64.ActiveCfg = Debug|x64
+		{3581677B-FC4B-473D-87F6-C8C0200AE002}.Debug|x64.Build.0 = Debug|x64
+		{3581677B-FC4B-473D-87F6-C8C0200AE002}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3581677B-FC4B-473D-87F6-C8C0200AE002}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3581677B-FC4B-473D-87F6-C8C0200AE002}.Release|x64.ActiveCfg = Release|x64
+		{3581677B-FC4B-473D-87F6-C8C0200AE002}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0E2E4F9A-341B-4621-A44B-569E17027647}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 7
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://dev.azure.com/programacionvictory
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = ERP.Data\\ERP.Data.csproj
+		SccProjectName1 = ERP.Data
+		SccLocalPath1 = ERP.Data
+		SccProjectUniqueName2 = ERP.Entities\\ERP.Entities.csproj
+		SccProjectName2 = ERP.Entities
+		SccLocalPath2 = ERP.Entities
+		SccProjectUniqueName3 = ERP.Core\\ERP.Core.csproj
+		SccProjectName3 = ERP.Core
+		SccLocalPath3 = ERP.Core
+		SccWebProject4 = true
+		SccProjectUniqueName4 = http://localhost:53303
+		SccProjectName4 = ERP.Web
+		SccLocalPath4 = ERP.Web
+		SccProjectEnlistmentChoice4 = 2
+		SccProjectUniqueName5 = Larissa.Data\\Larissa.Data.csproj
+		SccProjectName5 = Larissa.Data
+		SccLocalPath5 = Larissa.Data
+		SccProjectUniqueName6 = Larissa.Entities\\Larissa.Entities.csproj
+		SccProjectName6 = Larissa.Entities
+		SccLocalPath6 = Larissa.Entities
+	EndGlobalSection
+EndGlobal
